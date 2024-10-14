@@ -13,7 +13,7 @@
     border: 1.5px solid white;
 }
 
-
+/* navbar */
 nav{
     width: 100vw;
     height: 60px;
@@ -115,4 +115,29 @@ nav{
 .cart{
     font-size: 0.8rem;
     font-weight:700;
+}
+
+/* pannel */
+.pannel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 100vw;
+    font-size: 0.9rem;
+    background-color: #222f3d;
+    color: white;
+}
+
+.pannel-options{
+    display: flex;
+    width: 70%;
+}
+
+.options{
+    margin-left: 10px;
+}
+
+.pannel-deals{
+    font-weight: 700;
 }
