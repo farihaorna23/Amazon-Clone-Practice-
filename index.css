@@ -141,3 +141,29 @@ nav{
 .pannel-deals{
     font-weight: 700;
 }
+
+/* banner */
+.banner{
+    height: 350px;
+    width: 100vw;
+    background-image: url(./img/hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner-msg{
+    background-color: white;
+    height:40px;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.banner-msg a{
+    color:#007185
+}
