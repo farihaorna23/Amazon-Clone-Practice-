@@ -167,3 +167,40 @@ nav{
 .banner-msg a{
     color:#007185
 }
+
+/* shopping section */
+.shopping-section{
+    width: 100vw;
+    background-color: #e2e7e6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-bottom: 20px;
+}
+
+.box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-img{
+    background-image: url("./img/box1_image.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+.box p{
+    margin-top: 12px;
+    color: #007185;
+}
+
+.box-content h2{
+    margin-bottom: 5px;
+}
